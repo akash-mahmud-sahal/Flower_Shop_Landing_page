@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: poppins;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Banner Section Start Here */
+.bg__color {
+  background: rgba(229, 84, 115, 0.1);
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.hero__area {
+  display: flex;
+}
+
+.hero__info {
+  margin-top: 80px;
+}
+
+.pd__top {
+  padding-top: 128px;
+}
+h1 {
+  color: #272727;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.hero__text {
+  margin: 40px 0px;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+button {
+  color: #ffffff;
+  background: #e55473;
+  padding: 20px 48px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.hero__img {
+  display: flex;
+  align-items: end;
+}
+
+.pd__bottom {
+  padding: 128px;
+}
+.sub__heading {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+h3 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+
+
+/* Featured Section Start Here */
+
+.featured__flower {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.f__one {
+  background: rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  padding-top: 50px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 450px;
+  height: 600px;
+}
+
+.featured__link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.featured__link a {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+a{
+    color: #272727;
+}
+.featured__iteam img {
+  object-fit: contain;
+  width: 90%;
+}
+.f__two{
+    background: rgba(5, 151, 160, 0.15);
+}
+.f__three{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* Featured Section Start Here */
+
+
+
+
+/* How it Works Section Start Here */
+
+.how__works{
+    display: flex;
+    border-radius: 8px;
+    text-align: center;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px;
+    justify-content: space-around;
+}
+.how__works p{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 300;
+    font-style: normal;
+}
+/* How it Works Section End Here */
+
+/* CTA Section Start Here */
+.cta__bg{
+  background: rgba(229, 84, 115, 0.10);
+  margin-top: 100px;
+}
+.cta__content{
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+.cta__text{
+  text-align: center;
+}.focus__on{
+  color: #E55473;
+  font-size: 50px;
+  font-weight: 700;
+}
+/* CTA Section End Here */
+
+
+/* Instagram Section Style Start Here */
+.insta{
+  padding-top: 128px;
+}
+
+.insta__text{
+  text-align: center;
+  width: 45%;
+  margin: auto;
+}
+.insta__images{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+/* Instagram Section End Here */
+
+
+/* Subscribe Section Style Start Here */
+.sub__sec{
+  background-image: url("/assete/images\ file/cta image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 30px;
+  margin: 130px auto;
+  border-radius: 10p;
+}
+.subscription__info p{
+  text-align: center;
+}
+.subscription__info h2{
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+}
+.sub__form{
+  text-align: center;
+}
+input{
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 50%;
+  margin-right: 10px;
+}
+/* Subscribe Section Style End */
+footer h2{
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+footer span{
+  font-size: 48px;
+  color: #e55473;
+}
+footer{
+  text-align: center;
+  padding: 100px 0px;
+  background: #272727;
+}
+footer p{
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+.copy__rigth p{
+  color: rgba(255, 255, 255, 0.90);
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+/* Footer Section End Here */
